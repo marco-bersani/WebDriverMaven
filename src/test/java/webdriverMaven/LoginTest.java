@@ -26,7 +26,8 @@ public class LoginTest {
 		driver.findElement(By.id("identifierId")).sendKeys("marco.bersani@spot.it");
 		driver.findElement(By.id("identifierNext")).click();
 		// driver.findElement(By.id("password")).sendKeys("sdsd");
-
+		driver.findElement(By.id("SignIn")).click();
+		
 	}
 
 	@AfterSuite
